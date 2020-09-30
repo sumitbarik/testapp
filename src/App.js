@@ -15,6 +15,10 @@ class App extends React.Component{
     // const resp = this.callBootToGetTopics();
     // this.props.onSubmit();
     // console.log(JSON.stringify(resp));
+    // await axios.get('http://localhost:9080/topics')
+    //   .then(response => console.log(response))
+    //   .catch(error => console.log(error));
+
     this.setState({ data: 'Sumit' });
   };
 
